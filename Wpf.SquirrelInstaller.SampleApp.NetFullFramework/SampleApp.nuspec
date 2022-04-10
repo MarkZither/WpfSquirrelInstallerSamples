@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<package >
+    <metadata>
+        <id>WpfSampleAppFullFramework</id>
+        <version>1.0.1</version>
+        <authors>Mark Burton</authors>
+        <owners>Mark Burton</owners>
+        <description>WpfSampleAppFullFramework - Squirrel</description>
+        <releaseNotes>Initial release.</releaseNotes>
+        <copyright>Copyright ©  2021</copyright>
+    </metadata>
+    <files>
+        <file src="bin\Release\*.*" target="lib\net48\" exclude="*.pdb;*.vshost.*"/>
+    </files>
+</package>
