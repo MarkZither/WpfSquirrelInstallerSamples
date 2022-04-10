@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31911.260
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{19B48FD2-0739-4B20-A286-3D2B5AB45960}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp2FullFramework", "WpfApp2FullFramework\WpfApp2FullFramework.csproj", "{17C8D0A6-37B5-4636-AB7B-685004ECE939}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3DDD1469-4519-4C19-8F31-034A5867A542}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19B48FD2-0739-4B20-A286-3D2B5AB45960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19B48FD2-0739-4B20-A286-3D2B5AB45960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19B48FD2-0739-4B20-A286-3D2B5AB45960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19B48FD2-0739-4B20-A286-3D2B5AB45960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17C8D0A6-37B5-4636-AB7B-685004ECE939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17C8D0A6-37B5-4636-AB7B-685004ECE939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17C8D0A6-37B5-4636-AB7B-685004ECE939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17C8D0A6-37B5-4636-AB7B-685004ECE939}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D586048-ED86-4C08-89B2-9E4650F69A13}
+	EndGlobalSection
+EndGlobal
