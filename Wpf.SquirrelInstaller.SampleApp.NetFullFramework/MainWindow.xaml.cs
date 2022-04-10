@@ -31,11 +31,11 @@ namespace WpfApp2FullFramework
         {
             try
             {
-                using (var updateManager = new UpdateManager(@"C:\Source\GitRepos\WpfSquirrelInstallerSamples\Wpf.SquirrelInstaller.SampleApp.NetFullFramework"))
+                using (var updateManager = new UpdateManager(@"https://raw.githubusercontent.com/MarkZither/WpfSquirrelInstallerSamples/trunk/Wpf.SquirrelInstaller.SampleApp.NetFullFramework/FullFramework/"))
                 {
-                    CurrentVersion.Content = $"Current version: {updateManager.CurrentlyInstalledVersion()}";
+                    CurrentVersion.Content = $"{updateManager.CurrentlyInstalledVersion()}";
                     var releaseEntry = await updateManager.UpdateApp();
-                    NewVersion.Content = $"Update Version: {releaseEntry?.Version.ToString() ?? "No update"}";
+                    NewVersion.Content = $"{releaseEntry?.Version.ToString() ?? "No update"}";
                 }
             }
             catch(Exception ex)
