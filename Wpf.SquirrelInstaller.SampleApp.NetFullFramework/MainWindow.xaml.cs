@@ -40,7 +40,14 @@ namespace WpfApp2FullFramework
             }
             catch(Exception ex)
             {
-                CurrentVersion.Content = "Not a squirrel install";
+                try
+                {
+                    CurrentVersion.Content = "Not a squirrel install";
+                }
+                catch(Exception ex2)
+                {
+
+                }
             }
         }
     }
