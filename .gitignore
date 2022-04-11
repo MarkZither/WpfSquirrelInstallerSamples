@@ -400,4 +400,5 @@ FodyWeavers.xsd
 
 !**/FullFramework/*
 !**/FullFramework/**/*
+!**/Releases/*
 /Wpf.SquirrelInstaller.SampleApp.NetFullFramework/SquirrelTemp
