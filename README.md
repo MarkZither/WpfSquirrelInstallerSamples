@@ -18,5 +18,15 @@ In Package Manager Console from the `WpfSquirrelInstallerSamples\Wpf.SquirrelIns
 Set-Alias ClowdSquirrel ($env:USERPROFILE + "\.nuget\packages\clowd.squirrel\2.8.40\tools\Squirrel.exe");
 # build / publish your app, csproj settings make this a self-contained single file application
 dotnet publish -c Release -o ".\publish" 
-ClowdSquirrel pack --packId "YourApp" --packVersion "1.0.0" --packAuthors "Mark Burton" --packDirectory ".\publish"
+ClowdSquirrel pack --packId "Wpf.SquirrelInstaller.SampleApp.Net6" --packVersion "1.0.0" --packAuthors "Mark Burton" --packDirectory ".\publish"
+```
+
+## How to create installation packages for Wpf.SquirrelInstaller.SampleApp.Net6.FrameworkDependent
+In Package Manager Console from the `WpfSquirrelInstallerSamples\Wpf.SquirrelInstaller.SampleApp.Net6.FrameworkDependent` directory run the following commands
+
+```
+Set-Alias ClowdSquirrel ($env:USERPROFILE + "\.nuget\packages\clowd.squirrel\2.8.40\tools\Squirrel.exe");
+# build / publish your app, csproj settings make this a self-contained single file application
+dotnet publish -c Release -o ".\publish" 
+ClowdSquirrel pack --packId "Wpf.SquirrelInstaller.SampleApp.Net6.FrameworkDependent" --packVersion "1.0.0" --packAuthors "Mark Burton" --packDirectory ".\publish"
 ```
