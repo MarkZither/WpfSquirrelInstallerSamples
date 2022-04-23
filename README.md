@@ -15,7 +15,7 @@ squirrel --releasify .\WpfSampleAppFullFramework.1.0.0.nupkg -r FullFramework
 In Package Manager Console from the `WpfSquirrelInstallerSamples\Wpf.SquirrelInstaller.SampleApp.Net6` directory run the following commands
 
 ```
-Set-Alias ClowdSquirrel ($env:USERPROFILE + "\.nuget\packages\clowd.squirrel\2.8.40\tools\Squirrel.exe");
+Set-Alias ClowdSquirrel ($env:USERPROFILE + "\.nuget\packages\clowd.squirrel\2.9.31-g5cb8fd\tools\Squirrel.exe");
 # build / publish your app, csproj settings make this a self-contained single file application
 dotnet publish -c Release -o ".\publish" 
 ClowdSquirrel pack --packId "Wpf.SquirrelInstaller.SampleApp.Net6" --packVersion "1.0.0" --packAuthors "Mark Burton" --packDirectory ".\publish"
